@@ -83,7 +83,7 @@ $ git clone --recurse-submodules https://github.com/belak/prezto-contrib contrib
 ```
 #### dann spaceship als theme setzen
 
-### 4. node/npm lts mit nvm installieren
+### 4. [node/npm lts mit nvm installieren](https://docs.microsoft.com/de-de/windows/nodejs/setup-on-wsl2)
 ```
    $ touch ~/.bashrc
    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
