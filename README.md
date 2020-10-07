@@ -1,6 +1,8 @@
 # shell-setups
 
-## 1. windows-terminal
+## 1. Vorraussetzungen
+
+### 1.1 windows-terminal
 
 [JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) installieren
 
@@ -17,6 +19,10 @@
             "fontFace": "JetBrains Mono Nerd Font"
         },
 ```
+
+### 1.2 wsl
+[aktivieren, auf wsl 2 updaten und als default setzen](https://docs.microsoft.com/de-de/windows/wsl/install-win10)
+
 
 ## 2. PowerShell [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh):
 ```
