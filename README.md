@@ -77,10 +77,11 @@ $ cd $ZPREZTODIR
 $ git clone --recurse-submodules https://github.com/belak/prezto-contrib contrib
 ```
 
-#### -> setzen in .zpreztorc unter ladende module liste
+#### -> setzen in .zpreztorc unter ladende module liste, über 'prompt'
 ```
-zstyle ':prezto:module:prompt' theme 'spaceship'
+'contrib-prompt' \
 ```
+#### dann spaceship als theme setzen
 
 ### 4. node/npm lts mit nvm installieren
 ```
