@@ -2,7 +2,7 @@
 
 ## 1. windows-terminal
 
-JetBrains Mono Nerd Font installieren
+[JetBrains Mono Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/JetBrainsMono) installieren
 
 #### Terminal Default Settings:
 ```
@@ -18,7 +18,7 @@ JetBrains Mono Nerd Font installieren
         },
 ```
 
-## 2. PowerShell:
+## 2. PowerShell [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh):
 ```
 $ Install-Module posh-git -Scope CurrentUser
 $ Install-Module oh-my-posh -Scope CurrentUser
@@ -35,7 +35,7 @@ Set-Theme Robbyrussell
 ```
 $ sudo apt install zsh 
 ```
-### 3.2 prezto installieren
+### 3.2 [prezto](https://github.com/sorin-ionescu/prezto) installieren 
 ```
 $ git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 ```
@@ -71,7 +71,7 @@ zstyle ':prezto:module:prompt' theme 'cloud' '>' 'red' 'yellow'
 
 #### -> neuer Terminal Tab
 
-#### -> Spaceship Theme:
+#### -> Für [Spaceship](https://github.com/denysdovhan/spaceship-prompt) Theme [prezto-contrib](https://github.com/belak/prezto-contrib):
 ```
 $ cd $ZPREZTODIR
 $ git clone --recurse-submodules https://github.com/belak/prezto-contrib contrib
@@ -90,3 +90,7 @@ $ git clone --recurse-submodules https://github.com/belak/prezto-contrib contrib
    // restart bash
    $ nvm install --lts
 ```
+
+
+further reading:
+[some dotfiles of somebody](https://github.com/spencerwooo/dotfiles)
